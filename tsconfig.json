@@ -6,7 +6,9 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "noImplicitReturns": true,
+    //line added to ignore strict vars intialisation
+    "strictPropertyInitialization": false,
+    "noImplicitReturns": false,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
@@ -23,7 +25,7 @@
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
-    "strictInjectionParameters": true,
+    "strictInjectionParameters": false,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   }

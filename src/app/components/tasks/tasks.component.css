@@ -1,0 +1,10 @@
+body {
+display : flex ;
+justify-content: center ;
+align-content: center;
+margin-top:-330px;
+margin-left:610px;
+width:50px;
+flex-direction:column;
+flex-wrap: wrap;
+}

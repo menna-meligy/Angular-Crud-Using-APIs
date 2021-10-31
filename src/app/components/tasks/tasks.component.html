@@ -1,0 +1,26 @@
+<!-- <body>
+    <app-task-item
+      *ngFor="let task of tasks"
+      [task]="task"
+      (onDeleteTask)="onDeleteTask(task)";
+    ></app-task-item>
+</body> -->
+
+<!-- project code -->
+<!-- <app-add-task (onAddTask)="addTask($event)"></app-add-task>
+<app-task-item
+  *ngFor="let task of tasks"
+  [task]="task"
+  (onDeleteTask)="deleteTask(task)"
+  (onToggleReminder)="toggleReminder(task)"
+></app-task-item> -->
+
+<app-task-item>
+    <p>{{tasks}}</p>
+    <div *ngFor="let task of tasks">
+        <p>{{task.text}}</p>
+        <p>tessssssssssssssssssst</p>
+
+    </div>
+</app-task-item>
+<p>tessssssssssssssssssssssst</p>
